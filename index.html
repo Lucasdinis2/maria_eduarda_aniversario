@@ -199,13 +199,8 @@
         <div class="card">
           <div class="icon">✦</div>
           <h4>Trajes</h4>
-<<<<<<< HEAD
           <p>Traje de banho</p>
           <small>Para a piscina. Meninas: usar shorts. Para o baile à noite, trazer roupa adequada.</small>
-=======
-          <p>Livres</p>
-          <small>Venha confortável e do seu jeito.</small>
->>>>>>> 43c3bf3967bcc9b7292490feab2f741f07b5f27b
         </div>
         <div class="card">
           <div class="icon">❋</div>
@@ -227,11 +222,7 @@
             <div class="section-label">confirme sua presença</div>
             <h3 id="rsvp-title">Vamos contar<br>com você?</h3>
           </div>
-<<<<<<< HEAD
           <p>Este convite é individual. Confirme sua presença até 15/10 pelo WhatsApp.</p>
-=======
-          <p>Preencha seus dados para enviar a confirmação diretamente pelo WhatsApp.</p>
->>>>>>> 43c3bf3967bcc9b7292490feab2f741f07b5f27b
         </div>
         <form class="rsvp-form" id="rsvpForm">
           <div class="field">
@@ -245,13 +236,6 @@
               <option value="Não poderei comparecer">Não poderei comparecer</option>
             </select>
           </div>
-<<<<<<< HEAD
-=======
-          <div class="field">
-            <label for="guestCount">Quantas pessoas vão?</label>
-            <input id="guestCount" name="quantidade" type="number" min="1" max="20" value="1" required />
-          </div>
->>>>>>> 43c3bf3967bcc9b7292490feab2f741f07b5f27b
           <div class="field field-wide">
             <label for="guestNote">Recado ou observação (opcional)</label>
             <textarea id="guestNote" name="observacao" placeholder="Escreva aqui, se precisar"></textarea>
@@ -296,10 +280,6 @@
         'Olá! Quero confirmar sobre o convite.',
         `Nome: ${formData.get('nome')}`,
         `Presença: ${formData.get('presenca')}`,
-<<<<<<< HEAD
-=======
-        `Quantidade de pessoas: ${formData.get('quantidade')}`,
->>>>>>> 43c3bf3967bcc9b7292490feab2f741f07b5f27b
         formData.get('observacao') ? `Observação: ${formData.get('observacao')}` : ''
       ].filter(Boolean).join('\n');
       const whatsappUrl = `https://wa.me/553284794562?text=${encodeURIComponent(message)}`;
